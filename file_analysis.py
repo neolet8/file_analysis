@@ -8,6 +8,7 @@ fileSet = os.listdir(path)
 sorteda = sorted(fileSet,key=lambda x: int(os.path.splitext(x)[0]))
 
 img=list(range(1,5))
+"edit if your file names range differently"
 
 a = [os.path.splitext(x)[0] for x in fileSet]
 
